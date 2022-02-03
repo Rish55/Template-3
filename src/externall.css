@@ -20,3 +20,54 @@ li{
     float: left;
     margin: 0px 5px;
 }
+#gray-box{
+    clear: both;
+    background-color: lightgray;
+    padding: 20px;
+}
+.section{
+    width: 25%;
+    float: left;
+    margin: 4%;
+}
+.div1{
+    background-color: lightgray;
+    height: 15%;
+    text-align: center;
+}
+#main-page{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+.row:after {
+    content: "";
+    display: table;
+    overflow: hidden;
+  }
+@media screen and (max-width:600px) {
+    .section {
+      width: 50%;
+      margin: 10% 30%;
+    }
+  }
+  #gray-box2
+    {
+    background-color: lightgray;
+    clear: both;
+    }
+#bottom-tag{
+    text-align: center;
+    padding: 2%;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding:2px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
