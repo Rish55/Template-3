@@ -7,6 +7,29 @@ h1{ padding-left: 10px;
     float:left;
     margin-top: 0%;
 }
+h2
+{
+    clear: both;
+}
+h2 p 
+{
+    width: 20%;
+
+}
+h3
+{
+    text-align: center;
+}
+h3 p 
+{
+    text-align: justify; 
+    padding: 0px 2px;
+}
+h3 a
+{
+    text-decoration: underline;
+     margin-left: 37%;
+}
 nav{
     float: right;
     width: 40%;
@@ -70,4 +93,13 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-bottom: 15px;
+  }
+  #p1
+  {
+    float: left;
+  }
+  #p2
+  {
+    float: right;
   }
